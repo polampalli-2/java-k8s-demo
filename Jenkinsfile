@@ -2,13 +2,13 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = "your-dockerhub-username/demo-app"
+    IMAGE_NAME = "surendrakumar2/demo-app"
   }
 
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/<your-username>/java-k8s-demo.git'
+        https://github.com/polampalli-2/java-k8s-demo.git
       }
     }
 
