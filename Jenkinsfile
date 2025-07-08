@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        https://github.com/polampalli-2/java-k8s-demo.git
+        git 'https://github.com/polampalli-2/java-k8s-demo.git'
       }
     }
 
